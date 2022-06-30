@@ -1,3 +1,3 @@
 function bolme(){
-	sonuc.innerHTML = sayi1.value / sayi2.value;
+	sonuc.innerHTML = Math.round(sayi1.value / sayi2.value);
 }
